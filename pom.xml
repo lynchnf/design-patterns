@@ -11,6 +11,7 @@
     <modules>
         <module>abstract-factory</module>
         <module>builder</module>
+        <module>singleton</module>
     </modules>
 
     <name>Design Patterns</name>
