@@ -10,6 +10,7 @@
 
     <modules>
         <module>abstract-factory</module>
+        <module>builder</module>
     </modules>
 
     <name>Design Patterns</name>
