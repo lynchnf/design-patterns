@@ -11,6 +11,9 @@
 
     <artifactId>abstract-factory</artifactId>
 
+    <name>Abstract Factory</name>
+    <description>Example of the abstract factory design pattern.</description>
+
     <dependencies>
         <dependency>
             <groupId>ch.qos.logback</groupId>

@@ -1,8 +1,8 @@
-package norman.example.design.patterns.abstrct.factory;
+package norman.example.design.abstrct.factory;
 
-import norman.example.design.patterns.abstrct.factory.animal.Cow;
-import norman.example.design.patterns.abstrct.factory.animal.Dog;
-import norman.example.design.patterns.abstrct.factory.animal.Mammal;
+import norman.example.design.abstrct.factory.animal.Cow;
+import norman.example.design.abstrct.factory.animal.Dog;
+import norman.example.design.abstrct.factory.animal.Mammal;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,7 +11,7 @@ public class MammalFactory implements AbstractAnimalFactory<Mammal> {
 
     @Override
     public Mammal create(String animalType) {
-        LOGGER.debug("Creating a mammal with type: " + animalType + ".");
+        LOGGER.debug("Create mammal with type: " + animalType + ".");
         if (animalType.equalsIgnoreCase("cow")) {
             return new Cow();
         } else if (animalType.equalsIgnoreCase("dog")) {

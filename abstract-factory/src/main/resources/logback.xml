@@ -20,7 +20,7 @@
             <cleanHistoryOnStart>true</cleanHistoryOnStart>
         </rollingPolicy>
     </appender>
-    <logger name="norman.example.design.patterns" level="debug"/>
+    <logger name="norman.example.design" level="debug"/>
     <root level="info">
         <appender-ref ref="FILE"/>
         <appender-ref ref="STDOUT"/>

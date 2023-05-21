@@ -1,8 +1,8 @@
-package norman.example.design.patterns.abstrct.factory;
+package norman.example.design.abstrct.factory;
 
-import norman.example.design.patterns.abstrct.factory.animal.Animal;
-import norman.example.design.patterns.abstrct.factory.animal.Cow;
-import norman.example.design.patterns.abstrct.factory.animal.Duck;
+import norman.example.design.abstrct.factory.animal.Animal;
+import norman.example.design.abstrct.factory.animal.Cow;
+import norman.example.design.abstrct.factory.animal.Duck;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
